@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int exp(int a,int b)
+{
+    int e=1;
+    for(int i=0;i<b;i++)
+    {
+        e=e*a;
+    }
+    return e;
+}
+int main()
+{
+    int alive,num,k,i=0;
+    cout<<"Enter the number of Assassins : ";
+    cin>>num;
+    for(int i=0;i<num;i++)
+    {
+        k=exp(2,i);
+        if(k>num)
+        {
+            k=exp(2,i-1);
+            int x=num-k;
+            alive=(2*x)+1;
+            break;
+        }
+    }
+    cout<<"Guy who will be alive at the end : "<<alive<<endl;
+    return 0;
+}
