@@ -1,10 +1,6 @@
-
-
 #include <iostream>
-
 using namespace std;
-
-int add(int a[], int n, int k)
+int add(int a[],int n,int k)
 {    
     int count=0;
     int p;
