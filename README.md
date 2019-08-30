@@ -33,3 +33,21 @@ Print whether Pink will be sad or happy after the delivery of the records.
 5. Zolo is stuck in a traffic due to dysfunctional traffic light. Zolo is a professional hacker and he can get into the system and change the state of the light. His planet has different types of traffic lights such that there are N bulbs on the traffic board and only when all of them are green(G) the cars can pass. there are 2 other states also which the bulb can show; i.e. Red(R) & Yellow(Y). Note that the lights are designed such that they follow a state change cyclic pattern as follows:
 R------>Y------>G------->R
 Once Zolo gets into the system he can select any position i and update all elements between i to min(N, i + K - 1) by increasing their state by 1.This whole process takes 1 sec and he can repeat this process any no. of times until he gets all lights = G . Find the minimum time to do the process as Zolo is getting late for work.
+
+6.After getting her PhD, Christie has become a celebrity at her university, and her 
+Facebook profile is full of friend requests. Being the nice girl, she is, Christie has 
+accepted all the requests.
+Now Kuldeep is jealous of all the attention she is getting from other guys, so he asks 
+her to delete some of the guys from her friend list.
+To avoid a 'scene', Christie decides to remove some friends from her friend list, since 
+she knows the popularity of each of the friend she has, she uses the following 
+algorithm to delete a friend.
+Algorithm Delete(Friend):
+ DeleteFriend=false
+ for i = 1 to Friend.length-1
+ if (Friend[i].popularity < Friend[i+1].popularity)
+ delete i th friend
+ DeleteFriend=true
+ break
+ if(DeleteFriend == false)
+ delete the last friend.
