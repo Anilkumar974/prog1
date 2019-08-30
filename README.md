@@ -34,7 +34,7 @@ Print whether Pink will be sad or happy after the delivery of the records.
 R------>Y------>G------->R
 Once Zolo gets into the system he can select any position i and update all elements between i to min(N, i + K - 1) by increasing their state by 1.This whole process takes 1 sec and he can repeat this process any no. of times until he gets all lights = G . Find the minimum time to do the process as Zolo is getting late for work.
 
-6.After getting her PhD, Christie has become a celebrity at her university, and her 
+6.   After getting her PhD, Christie has become a celebrity at her university, and her 
 Facebook profile is full of friend requests. Being the nice girl, she is, Christie has 
 accepted all the requests.
 Now Kuldeep is jealous of all the attention she is getting from other guys, so he asks 
